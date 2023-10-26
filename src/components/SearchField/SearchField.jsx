@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const SearchField = ({ textoBuscaDigitado, handleBusca }) => (
     <div className="barra-de-pesquisa">
-        <img src={Lupa} alt="icone" />
+        <img src={Lupa} alt="icone" width={30} height={30} />
         <input
             type="text"
             value={textoBuscaDigitado}
