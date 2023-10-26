@@ -14,29 +14,29 @@ const Category = ({ handleFiltro, botaoClicado }) => (
 
             <button className={botaoClicado === "Entradas" ? "acenderBtn" : "apagarBtn"}
                 onClick={() => handleFiltro("Entradas")}>
-                <img src={icone1} alt="ícone" />Entradas
+                <img src={icone1} alt="ícone" width={20} height={20} />Entradas
             </button>
 
             <button className={botaoClicado === "Massas" ? "acenderBtn" : "apagarBtn"}
                 onClick={() => handleFiltro("Massas")}>
-                <img src={icone2} alt="ícone" />Massas
+                <img src={icone2} alt="ícone" width={20} height={20}/>Massas
             </button>
 
             <button className={botaoClicado === "Carnes" ? "acenderBtn" : "apagarBtn"}
                 onClick={() => handleFiltro("Carnes")}>
-                <img src={icone3} alt="ícone" />Carnes
+                <img src={icone3} alt="ícone" width={20} height={20}/>Carnes
             </button>
             <button className={botaoClicado === "Bebidas" ? "acenderBtn" : "apagarBtn"}
                 onClick={() => handleFiltro("Bebidas")}>
-                <img src={icone4} alt="ícone" />Bebidas
+                <img src={icone4} alt="ícone" width={20} height={20}/>Bebidas
             </button>
             <button className={botaoClicado === "Saladas" ? "acenderBtn" : "apagarBtn"}
                 onClick={() => handleFiltro("Saladas")}>
-                <img src={icone5} alt="ícone" />Saladas
+                <img src={icone5} alt="ícone" width={20} height={20}/>Saladas
             </button>
             <button className={botaoClicado === "Sobremesas" ? "acenderBtn" : "apagarBtn"}
                 onClick={() => handleFiltro("Sobremesas")}>
-                <img src={icone6} alt="ícone" />Sobremesas
+                <img src={icone6} alt="ícone" width={20} height={20}/>Sobremesas
             </button>
 
         </div>
