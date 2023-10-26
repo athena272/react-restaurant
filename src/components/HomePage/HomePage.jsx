@@ -27,7 +27,7 @@ const Home = () => {
     return (
         <div>
             <header className="banner">
-                <img src={Banner} alt="banner" width={1024} height={511}/>
+                <img src={Banner} alt="banner" />
                 <div>
                     <h1>RESTAURANT</h1>
                     <p>
