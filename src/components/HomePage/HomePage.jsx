@@ -14,7 +14,7 @@ const Home = () => {
 
     const handleBusca = (textoDigitado) => {
         setTextoBuscaDigitado(textoDigitado)
-        textoDigitado.length >= 3 && setDadosFiltrados(buscaProduto(textoDigitado))
+        textoDigitado.length >= 2 && setDadosFiltrados(buscaProduto(textoDigitado))
         setBotaoClicado("")
     }
 
