@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Card = ({ produto }) => (
     <div className="card">
         <figure>
-            <img src={produto.imagem} alt={produto.nome} loading='lazy'/>
+            <img src={produto.imagem} alt={produto.nome} />
         </figure>
         <div className="container-informacoes">
             <div>
