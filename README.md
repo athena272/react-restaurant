@@ -4,7 +4,7 @@
 
 ## Sobre o projeto 
 
-O projeto em React desenvolvido para o cardápio de um restaurante é uma aplicação que oferece uma interface interativa para explorar e pesquisar pratos disponíveis. Ele é composto por várias funcionalidades essenciais:
+O projeto Restaurant em React, desenvolvido para o cardápio de um restaurante é uma aplicação que oferece uma interface interativa para explorar e pesquisar pratos disponíveis. Ele é composto por várias funcionalidades essenciais:
 
 ## Recursos Principais:
 - **Busca por Nome Parcial:** Oferece a capacidade de pesquisar pratos pelo nome, permitindo a entrada de termos parciais para encontrar resultados correspondentes. Ao digitar na barra de pesquisa, os pratos relacionados são filtrados dinamicamente e exibidos em tempo real.
