@@ -1,9 +1,9 @@
-import './SearchField.css';
+import styles from './SearchField.module.css';
 import Lupa from '/assets/lupa.png'
 import PropTypes from 'prop-types';
 
 const SearchField = ({ textoBuscaDigitado, handleBusca }) => (
-    <div className="barra-de-pesquisa">
+    <div className={styles.barra_de_pesquisa}>
         <img src={Lupa} alt="icone" width={30} height={30} />
         <input
             type="text"
