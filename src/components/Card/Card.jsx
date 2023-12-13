@@ -1,12 +1,12 @@
-import './Card.css';
+import styles from './Card.module.css';
 import PropTypes from 'prop-types';
 
 const Card = ({ produto }) => (
-    <div className="card">
+    <div className={styles.card}>
         <figure>
             <img src={produto.imagem} alt={produto.nome} />
         </figure>
-        <div className="container-informacoes">
+        <div className={styles.container_informacoes}>
             <div>
                 <h3>{produto.nome}</h3>
                 <small>{produto.categoria}</small>
