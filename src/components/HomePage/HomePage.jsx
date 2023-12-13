@@ -1,4 +1,4 @@
-import './HomePage.css'
+import styles from './HomePage.module.css'
 import Banner from '/assets/banner.png'
 import { useState } from 'react'
 import { filtrarProduto, buscaProduto, produtosEntradas } from '../../service'
@@ -26,7 +26,7 @@ const Home = () => {
 
     return (
         <div>
-            <header className="banner">
+            <header className={styles.banner}>
                 <img src={Banner} alt="banner" />
                 <div>
                     <h1>RESTAURANT</h1>
@@ -36,7 +36,7 @@ const Home = () => {
                     </p>
                 </div>
             </header>
-            <main className="container-principal">
+            <main className={styles.container_principal}>
                 <Category handleFiltro={handleFiltro} botaoClicado={botaoClicado} />
 
                 <SearchField
@@ -44,12 +44,12 @@ const Home = () => {
                     handleBusca={handleBusca}
                 />
 
-                <section className="secao-cards">
+                <section className={styles.secao_cards}>
                     <div>
                         <h2>Cardápio</h2>
                     </div>
 
-                    <div className="container-cards">
+                    <div className={styles.container_cards}>
                         {dadosFiltrados.map((produto) => (
                             <Card key={produto.id} produto={produto} />
                         ))}
