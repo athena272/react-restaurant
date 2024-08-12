@@ -1,0 +1,3 @@
+pnpm install @eslint/js @types/react @types/react-dom @vitejs/plugin-react eslint eslint-plugin-react-hooks eslint-plugin-react-refresh globals typescript typescript-eslint vite
+
+pnpm install react react-dom
