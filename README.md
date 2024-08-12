@@ -14,7 +14,8 @@ O projeto Restaurant em React, desenvolvido para o cardápio de um restaurante �
 - **Layout de Cardápio:** Apresenta os pratos de forma atraente, com imagens, descrições, preços e possivelmente outras informações relevantes. Os pratos são exibidos de acordo com os critérios de pesquisa ou filtros selecionados.
 
 ## Tecnologias
-- Javascript <img align="center" alt="Gui-Js" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> 
+- Javascript <img align="center" alt="Gui-Js" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+- Typescript <img align="center" alt="Gui-Angular" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
 - React <img align="center" alt="Gui-React" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
          
 ### Filtros e barra de pesquisa
