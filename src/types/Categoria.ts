@@ -1,0 +1,1 @@
+export type Categoria = "Massas" | "Entradas" | "Carnes" | "Sobremesas" | "Bebidas" | "Saladas"
