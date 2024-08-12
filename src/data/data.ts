@@ -28,8 +28,9 @@ import saladaCaprese from "/assets/salada-caprese.jpg";
 import saladaWaldorf from "/assets/salada-waldorf.jpg";
 import saladaGrega from "/assets/salada-grega.jpg";
 import saladaNicoise from "/assets/salada-nicoise.jpg";
+import { Produto } from "../types/Produto";
 
-export const produtos = [
+export const produtos: Produto[] = [
   {
     id: 1,
     nome: "Espaguete",

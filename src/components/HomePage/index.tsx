@@ -2,23 +2,26 @@ import styles from './HomePage.module.css'
 import Banner from '/assets/banner.png'
 import { useState } from 'react'
 import { filtrarProduto, buscaProduto, produtosEntradas } from '../../service'
-import Card from '../Card/Card'
-import Category from '../Category/Category'
-import SearchField from '../SearchField/SearchField'
+import Card from '../Card'
+import Category from '../Category'
+import SearchField from '../SearchField'
+import { Categoria } from '../../types/Categoria'
 
-const Home = () => {
+export default function HomePage() {
     const [dadosFiltrados, setDadosFiltrados] = useState(produtosEntradas)
     const [textoBuscaDigitado, setTextoBuscaDigitado] = useState("")
 
     const [botaoClicado, setBotaoClicado] = useState("Entradas")
 
-    const handleBusca = (textoDigitado) => {
+    const handleBusca = (textoDigitado: string) => {
         setTextoBuscaDigitado(textoDigitado)
-        textoDigitado.length >= 1 && setDadosFiltrados(buscaProduto(textoDigitado))
+        if (textoBuscaDigitado.length >= 1) {
+            setDadosFiltrados(buscaProduto(textoDigitado))
+        }
         setBotaoClicado("")
     }
 
-    const handleFiltro = (categoria) => {
+    const handleFiltro = (categoria: Categoria) => {
         setTextoBuscaDigitado("")
         setDadosFiltrados(filtrarProduto(categoria))
         setBotaoClicado(categoria)
@@ -60,5 +63,3 @@ const Home = () => {
         </div>
     )
 }
-
-export default Home;
